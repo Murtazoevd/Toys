@@ -1,0 +1,58 @@
+@media screen and (max-width: 1377px) {
+    .container header .father .left div {
+        font-size: 17px;
+      }
+}
+@media screen and (max-width: 1150px) {
+    .container{
+        overflow: hidden;
+    }
+    .container .navbar .father .cart{
+        width: 100%;
+    }
+    .container .navbar .father{
+        position: relative;
+    }
+    .container .navbar .father .items ul {
+        display: none;
+    }
+    .container .navbar .cart .menu_list {
+        display: block;
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        right: 0;
+        background-color: #a5c926;
+        width: 50%;
+        height: 80vh;
+        transform: translate(140%, 0);
+        transition: all .5s linear;
+    }
+    .container .navbar .father .items ul{
+        flex-direction: column;
+    }
+    .container .navbar .father .cart .logo {
+        display: block;
+    }
+    .container .navbar .father .cart .menu {
+        display: block;
+    }
+    .container .navbar .father .cart .menu:hover + .menu_list{
+        transform: translate(0,0);
+    }
+}
+@media screen and (max-width: 850px){
+    .container header .father .left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .container .animals {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

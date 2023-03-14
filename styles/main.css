@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+}
+.container header {
+  width: 100%;
+  background: #a5c926;
+}
+.container header .father {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.container header .father .left {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.container header .father .left div {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.container header .father .right {
+  display: flex;
+  gap: 15px;
+}
+.container header .father .right i {
+  font-size: 20px;
+  color: white;
+}
+.container .navbar {
+  width: 100%;
+}
+.container .navbar .father {
+  padding: 20px 0;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .navbar .father .items,
+.container .navbar .father .items ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.container .navbar .father .items .logo {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #333333;
+}
+.container .navbar .father .items ul li a,
+.container .navbar .cart .menu_list li a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #111111;
+}
+.container .navbar .father .cart {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .navbar .father .cart .elements {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.container .navbar .father .cart .elements p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #111111;
+}
+.container .navbar .father .cart .elements i {
+  font-size: 25px;
+}
+.container .navbar .father .cart .elements div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #a5c926;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.container .navbar .father .cart .menu {
+  display: none;
+}
+.container .navbar .father .cart .menu i {
+  font-size: 30px;
+}
+.container .navbar .father .cart .logo {
+  display: none;
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #333333;
+}
+.container .navbar .cart .menu_list {
+  display: none;
+}
+
+.container .home {
+  width: 100%;
+  /* height: 90vh; */
+  background-image: url("../images/bghome.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30vh 0;
+}
+.container .home .center {
+  padding: 50px 50px;
+  background-color: white;
+  /* width: 50%; */
+  /* height: 20vh; */
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  /* backdrop-filter: blur(10px); */
+}
+.container .home .center p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #a5c926;
+}
+.container .home .center h1 {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 48px;
+  text-align: center;
+  color: #111111;
+}
+.container .home .center button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #a5c926;
+}
+
+.container .animals {
+  width: 100%;
+  height: 50vh;
+  background: #F8F8F8;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .animals .animbox {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  background: #ffc12c;
+  border-radius: 16px;
+  position: relative;
+}
+
+.container .animals .animbox img {
+  position: absolute;
+  top: -50px;
+}
+
+.container .animals .animbox p {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+  position: absolute;
+  top: 30px;
+  right: 90px;
+}
+
+.container .animals .animbox button {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  right: 200px;
+  top: 80px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #111111;
+}
+
+.container .animals .animbox2 {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  background: #fb416b;
+  border-radius: 16px;
+  position: relative;
+}
+
+.container .animals .animbox2 img {
+  position: absolute;
+  right: 10px;
+  top: -50px;
+}
+
+.container .animals .animbox2 p {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+  color: #ffffff;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+.container .animals .animbox2 button {
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  left: 180px;
+  top: 80px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #111111;
+}
